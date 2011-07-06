@@ -99,6 +99,10 @@ class AboutIteration < EdgeCase::Koan
   #   file = File.open(filename)
   #   # code to read 'file'
   #
+  #  The first example uses the file variable as an iterator, while the second
+  #  uses it as a file handle.  In the second example, you would need to have an
+  #  additional file of code to iterate such as file.each do |line|
+  
   # When you get to the "AboutSandwichCode" koan, recheck your answer.
 
 end
